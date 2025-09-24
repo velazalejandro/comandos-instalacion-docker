@@ -48,41 +48,41 @@ Escribimos en el cmd situados en la ruta de la carpeta docker –> DockerCli.exe
 
 
 COMANDOS BÁSICOS DE DOCKER:
-docker --help: Muestra la ayuda de todos los comandos.
-docker version: Muestra información y versión de docker.
-docker info: Muestra información sobre cliente y servidor.
-docker images: Ver la lista de imágenes descargadas.
-docker ps: Ver la lista de contenedores en ejecución.
-docker ps -a: Ver la lista de todos los contenedores ejecutados. Enumera todos los contenedores de Docker que se ejecutan / salieron / detuvieron con los detalles del contenedor.
-docker rm: Borra contenedores en nuestro equipo.
-docker rmi: Borra imagenes en nuestro equipo.
-docker search: Busca imágenes en el Docker Hub.
-docker pull: Descarga imágenes desde Docker Hub.
-docker restart: Reinicia el contenedor de la ventana acoplable con la identificación del contenedor mencionada en el comando.
-docker stop: Detiene un contenedor con el ID de contenedor mencionado en el comando.
-docker start: Inicia el contenedor de la ventana acoplable con la identificación del contenedor mencionada en el comando.
-docker kill: Detiene el contenedor Docker inmediatamente. El comando de detención de Docker detiene el contenedor con gracia, esa es la diferencia entre los comandos de detención y de detención.
-docker commit: Guarda una nueva imagen de Docker con el ID de contenedor mencionado en el comando en el sistema local.
-docker login: Inicia sesión en Docker Hub. Se le pedirán las credenciales de su Docker Hub para iniciar sesión.
-docker push: Carga una imagen de la ventana acoplable con el nombre de la imagen que se menciona en el comando en la ventana acoplable.
-docker network: Enumera los detalles de toda la red en el clúster.
-docker info: Obtiene información detallada sobre la ventana acoplable instalada en el sistema, incluida la versión del kernel, el número de contenedores e imágenes, etc.
-sudo docker cp: Copia un archivo de un contenedor de la ventana acoplable al sistema local.
-docker history: Muestra el historial de una imagen de la ventana acoplable con el nombre de la imagen mencionado en el comando.
-docker logs: Muestra los registros del contenedor de la ventana acoplable con la identificación contenida mencionada en el comando.
-docker search: Busca una imagen de docker en dockerhub con el nombre mencionado en el comando.
-docker update –help: Actualiza las configuraciones de contenedores. Esto muestra todas las opciones de actualización.
-docker volume create: Crea un volumen que el contenedor de la ventana acoplable utilizará para almacenar datos.
-docker volume ls: Ejecuta el comando si el volumen se ha creado.
-docker plugin install: Instala un complemento de docker vieux / sshfs con el entorno de depuración establecido en 1.
-docker logout: Cierra sesión en dockerhub.
-docker volume create <volume> : Crea un volumen.
-docker volume ls: Lista todos los volúmenes.
-docker-compose up –d: Para ejecutar el contenedor se necesita ejecutar el comando “docker-compose up” y se verá cómo crea el contenedor según Dockerfile y lo ejecuta con la definición del archivo docker-compose.yml y su servicio correspondiente situado en cualquier carpeta.
-docker ps –aq: Borra todos los contenedores de docker.
-docker run –it nombrecontenedor: Acceder a la terminal de un contenedor.
-docker-compose ps: Lista los containers corriendo en el contexto de este docker-compose.
-docker system df: Visualiza todo el estado del disco usado de docker.
+- docker --help: Muestra la ayuda de todos los comandos.
+- docker version: Muestra información y versión de docker.
+- docker info: Muestra información sobre cliente y servidor.
+- docker images: Ver la lista de imágenes descargadas.
+- docker ps: Ver la lista de contenedores en ejecución.
+- docker ps -a: Ver la lista de todos los contenedores ejecutados. Enumera todos los contenedores de Docker que se ejecutan / salieron / detuvieron con los detalles del contenedor.
+- docker rm: Borra contenedores en nuestro equipo.
+- docker rmi: Borra imagenes en nuestro equipo.
+- docker search: Busca imágenes en el Docker Hub.
+- docker pull: Descarga imágenes desde Docker Hub.
+- docker restart: Reinicia el contenedor de la ventana acoplable con la identificación del contenedor mencionada en el comando.
+- docker stop: Detiene un contenedor con el ID de contenedor mencionado en el comando.
+- docker start: Inicia el contenedor de la ventana acoplable con la identificación del contenedor mencionada en el comando.
+- docker kill: Detiene el contenedor Docker inmediatamente. El comando de detención de Docker detiene el contenedor con gracia, esa es la diferencia entre los comandos de detención y de detención.
+- docker commit: Guarda una nueva imagen de Docker con el ID de contenedor mencionado en el comando en el sistema local.
+- docker login: Inicia sesión en Docker Hub. Se le pedirán las credenciales de su Docker Hub para iniciar sesión.
+- docker push: Carga una imagen de la ventana acoplable con el nombre de la imagen que se menciona en el comando en la ventana acoplable.
+- docker network: Enumera los detalles de toda la red en el clúster.
+- docker info: Obtiene información detallada sobre la ventana acoplable instalada en el sistema, incluida la versión del kernel, el número de contenedores e imágenes, etc.
+- sudo docker cp: Copia un archivo de un contenedor de la ventana acoplable al sistema local.
+- docker history: Muestra el historial de una imagen de la ventana acoplable con el nombre de la imagen mencionado en el comando.
+- docker logs: Muestra los registros del contenedor de la ventana acoplable con la identificación contenida mencionada en el comando.
+- docker search: Busca una imagen de docker en dockerhub con el nombre mencionado en el comando.
+- docker update –help: Actualiza las configuraciones de contenedores. Esto muestra todas las opciones de actualización.
+- docker volume create: Crea un volumen que el contenedor de la ventana acoplable utilizará para almacenar datos.
+- docker volume ls: Ejecuta el comando si el volumen se ha creado.
+- docker plugin install: Instala un complemento de docker vieux / sshfs con el entorno de depuración establecido en 1.
+- docker logout: Cierra sesión en dockerhub.
+- docker volume create <volume> : Crea un volumen.
+- docker volume ls: Lista todos los volúmenes.
+- docker-compose up –d: Para ejecutar el contenedor se necesita ejecutar el comando “docker-compose up” y se verá cómo crea el contenedor según Dockerfile y lo ejecuta con la definición del archivo docker-compose.yml y su servicio correspondiente situado en cualquier carpeta.
+- docker ps –aq: Borra todos los contenedores de docker.
+- docker run –it nombrecontenedor: Acceder a la terminal de un contenedor.
+- docker-compose ps: Lista los containers corriendo en el contexto de este docker-compose.
+- docker system df: Visualiza todo el estado del disco usado de docker.
 
 
 Archivo de configuración docker:
