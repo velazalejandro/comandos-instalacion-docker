@@ -144,7 +144,7 @@ https://hub.docker.com/_/postgres/ -> enlace a la imagen de postgres
 Instalamos las imágenes:
 - docker pull sonarqube -> comando para instalar imágenes, que se encuentran en la página oficial de docker.
 - docker pull postgres
-- 
+  
 Instalación de SonarQube utilizando docker-compose:
 
 Para facilitar la instalación de SonarQube en contenedores Docker vamos a utilizar el comando docker-compose up -d.
