@@ -1,7 +1,8 @@
 # comandos-instalacion-docker
 
 DOCKER
--¿Qué es?
+¿Qué es?
+
 Es un proyecto de código abierto con el que podremos crear "contenedores". Estos contenedores de Docker podríamos definirlos como máquinas virtuales ligeras, menos exigentes con los chips y memorias de los equipos donde se ejecutarán. Las características principales de estos contenedores son la portabilidad, la ligereza y la autosuficiencia.
 - Portabilidad: El contenedor podremos desplegarlo en cualquier sistema con lo que nos ahorraremos el tener que instalar en este nuevo entorno todas aquellas aplicaciones que normalmente usemos.
 - Ligereza: El peso de este sistema no tiene comparación con cualquier otro sistema de virtualización más convencional que estemos acostumbrados a usar. Por poner un ejemplo, una de las herramientas de virtualización más extendida es VirtualBox, y cualquier imagen de Ubuntu que queramos usar en otro equipo pesará entorno a 1Gb si contamos únicamente con la instalación limpia del sistema. En cambio, un Ubuntu con Apache y una aplicación web, pesa alrededor de 180Mb
