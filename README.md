@@ -89,3 +89,8 @@ COMANDOS BÁSICOS DE DOCKER:
 
 Archivo de configuración docker:
 El archivo de configuración se encuentra en C:\Program Files\Docker\Docker\resources\windows-daemon-options.json
+
+
+## Autor
+Alejandro Velaz
+🎓 Formación: ASIR
