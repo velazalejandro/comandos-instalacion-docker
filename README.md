@@ -1,7 +1,6 @@
 # comandos-instalacion-docker
 
-DOCKER
-¿Qué es?
+## DOCKER ¿Qué es?
 
 Es un proyecto de código abierto con el que podremos crear "contenedores". Estos contenedores de Docker podríamos definirlos como máquinas virtuales ligeras, menos exigentes con los chips y memorias de los equipos donde se ejecutarán. Las características principales de estos contenedores son la portabilidad, la ligereza y la autosuficiencia.
 - Portabilidad: El contenedor podremos desplegarlo en cualquier sistema con lo que nos ahorraremos el tener que instalar en este nuevo entorno todas aquellas aplicaciones que normalmente usemos.
@@ -15,13 +14,13 @@ Es un proyecto de código abierto con el que podremos crear "contenedores". Esto
 - Repositorios: contienen imágenes creadas por los usuarios y puestas a disposición del público. Podemos encontrar repositorios públicos y totalmente gratuitos o repositorios privados donde tendremos que comprar las imágenes que necesitemos.
 
 
-¿Cómo funciona?
+## ¿Cómo funciona?
 
 En un principio contamos con una imagen base , sobre la que realizaremos los diferentes cambios. Tras confirmar estos cambios mediante la aplicación Docker , crearemos la imagen que usaremos. Esta imagen contiene únicamente las diferencias que hemos añadido con respecto a la base. Cada vez que queramos ejecutar esta imagen necesitaremos la base y las 'capas' de la imagen. Docker se encargará de acoplar la base, la imagen y las diferentes capas con los cambios para darnos el entorno que queremos desplegar para empezar a trabajar.
 Docker le proporciona una manera estándar de ejecutar su código. Docker es un sistema operativo para contenedores. De manera similar a cómo una máquina virtual virtualiza (elimina la necesidad de administrar directamente) el hardware del servidor, los contenedores virtualizan el sistema operativo de un servidor. Docker se instala en cada servidor y proporciona comandos sencillos que puede utilizar para crear, iniciar o detener contenedores.
 
 
-CARACTERÍSTICAS DE DOCKER:
+## CARACTERÍSTICAS DE DOCKER:
 - Autogestión de los contenedores.
 - Fiabilidad.
 - Aplicaciones libres de las dependencias instaladas en el sistema anfitrión.
@@ -35,7 +34,7 @@ Podremos establecer una base desde la que comenzar nuestros proyectos, lo que no
 Podremos compartir nuestros contenedores para aumentar los repositorios de Docker así como beneficiarnos de los que compartan los demás.
 
 
-INSTALACIÓN DOCKER DESKTOP EN WINDOWS:
+## INSTALACIÓN DOCKER DESKTOP EN WINDOWS:
 Si queremos instalar Docker debemos cumplir ciertos requisitos en Windows 10:
 - Windows 10 versión Professional o Enterprise.
 - Actualizado con Anniversary Edition o Creators Update.
@@ -49,7 +48,7 @@ Opciones avanzadas – Ejecutar como administrador
 Escribimos en el cmd situados en la ruta de la carpeta docker –> DockerCli.exe -SwitchDaemon
 
 
-COMANDOS BÁSICOS DE DOCKER:
+## COMANDOS BÁSICOS DE DOCKER:
 - docker --help: Muestra la ayuda de todos los comandos.
 - docker version: Muestra información y versión de docker.
 - docker info: Muestra información sobre cliente y servidor.
@@ -87,7 +86,7 @@ COMANDOS BÁSICOS DE DOCKER:
 - docker system df: Visualiza todo el estado del disco usado de docker.
 
 
-Archivo de configuración docker:
+## Archivo de configuración de Docker:
 El archivo de configuración se encuentra en C:\Program Files\Docker\Docker\resources\windows-daemon-options.json
 
 
